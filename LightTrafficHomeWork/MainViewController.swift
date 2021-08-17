@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainViewController.swift
 //  LightTrafficHomeWork
 //
 //  Created by Nadzeya Shpakouskaya on 17/08/2021.
@@ -7,13 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
 
-
 }
-
