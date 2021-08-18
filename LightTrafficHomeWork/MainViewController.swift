@@ -32,15 +32,15 @@ class MainViewController: UIViewController {
     }
     
     // MARK: - Private methods
-    fileprivate func setUpUIElements() {
-        redSignView.layer.cornerRadius = redSignView.frame.size.height / 2
-        yellowSignView.layer.cornerRadius = yellowSignView.frame.size.height / 2
-        greenSignView.layer.cornerRadius = greenSignView.frame.size.height / 2
+    private func setUpUIElements() {
+        redSignView.layer.cornerRadius = redSignView.frame.height / 2
+        yellowSignView.layer.cornerRadius = yellowSignView.frame.height / 2
+        greenSignView.layer.cornerRadius = greenSignView.frame.height / 2
         
         actionButton.layer.cornerRadius = 15
     }
     
-    fileprivate func changeSignColor(){
+    private func changeSignColor() {
         switch currentColorSign {
         case .red:
             redSignView.layer.opacity = 0.35
